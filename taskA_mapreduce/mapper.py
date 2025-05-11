@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """Mapper module for MapReduce Task A."""
 """
 Map phase: each CSV line → (passenger_id, 1)
