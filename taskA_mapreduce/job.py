@@ -9,7 +9,7 @@ from utils.file_splitter import line_batches
 
 class MapReduceJob:
     def __init__(self, mapper_cls: Type, reducer_cls: Type,
-                 num_workers: int = 4, lines_per_batch: int = 50_000):
+                 num_workers: int = 4, lines_per_batch: int = 30_000):
         self.mapper_cls = mapper_cls
         self.reducer_cls = reducer_cls
         self.num_workers = num_workers
